@@ -18,6 +18,8 @@ const nextConfig = {
   poweredByHeader: false,
   // Enable compression
   compress: true,
+  // Enable standalone output for Docker
+  output: 'standalone',
 }
 
 module.exports = nextConfig
